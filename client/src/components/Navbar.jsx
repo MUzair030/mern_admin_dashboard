@@ -2,8 +2,8 @@ import { LightModeOutlined,
 DarkModeOutlined,
 Menu,
 Search,
-SettingsOutlined,
-ArrowDownwardOutlined}
+SettingsOutlined, NotificationsOutlined, PersonOutlined
+}
 from "@mui/icons-material";
 // import FlexBetween from "./FlexBetween";
 import { useDispatch } from "react-redux";
@@ -62,6 +62,9 @@ const Navbar = (params) => {
                     </IconButton>
                     <IconButton>
                         <SettingsOutlined/>
+                    </IconButton>
+                    <IconButton>
+                        <PersonOutlined/>
                     </IconButton>
                 </Stack>
 
